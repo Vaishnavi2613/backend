@@ -6,6 +6,12 @@ const express = require('express')
 const app = express()
 const port = 4000
 
+const githubData = {
+  name: "Vaishnavi",
+  repo: "backend",
+  url: "https://github.com/Vaishnavi2613/backend"
+};
+
 app.get('/', (req, res) => {
   res.send('Hello World!')
 })
