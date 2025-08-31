@@ -1,0 +1,4 @@
+//this file is basically that we are telling the git to ignore these files and init rest as these may contain sensitive info
+
+node_modules
+.env
